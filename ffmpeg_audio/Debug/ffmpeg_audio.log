@@ -1,0 +1,22 @@
+﻿生成启动时间为 2016/12/5 18:18:45。
+     1>项目“C:\Ffmpeg\projects\ffmpeg_audio\ffmpeg_audio\ffmpeg_audio.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\ffmpeg_audio.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ffmpeg_audio.cpp
+         ffmpeg_audio.cpp
+     1>c:\ffmpeg\projects\ffmpeg_audio\ffmpeg_audio\ffmpeg_audio.cpp(108): warning C4715: “pcm_to_aac”: 不是所有的控件路径都返回值
+     1>c:\ffmpeg\projects\ffmpeg_audio\ffmpeg_audio\ffmpeg_audio.cpp(134): warning C4715: “close_audio”: 不是所有的控件路径都返回值
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Ffmpeg\projects\ffmpeg_audio\Debug\ffmpeg_audio.exe" /NOLOGO /LIBPATH:../lib avcodec.lib avformat.lib avutil.lib avdevice.lib avfilter.lib postproc.lib swresample.lib swscale.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ffmpeg_audio.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Ffmpeg\projects\ffmpeg_audio\Debug\ffmpeg_audio.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Ffmpeg\projects\ffmpeg_audio\Debug\ffmpeg_audio.lib" /MACHINE:X86 Debug\ffmpeg_audio.obj
+         Debug\rtp_receiver_utils.obj
+         Debug\rtp_sender_utils.obj
+         LINK : 没有找到 C:\Ffmpeg\projects\ffmpeg_audio\Debug\ffmpeg_audio.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>rtp_sender_utils.obj : error LNK2005: "unsigned char * adts_headerbuf" (?adts_headerbuf@@3PAEA) 已经在 rtp_receiver_utils.obj 中定义
+     1>rtp_sender_utils.obj : error LNK2005: "unsigned char * playload" (?playload@@3PAEA) 已经在 rtp_receiver_utils.obj 中定义
+     1>C:\Ffmpeg\projects\ffmpeg_audio\Debug\ffmpeg_audio.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+     1>已完成生成项目“C:\Ffmpeg\projects\ffmpeg_audio\ffmpeg_audio\ffmpeg_audio.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.01

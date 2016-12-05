@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ffmpeg_audio", "ffmpeg_audio\ffmpeg_audio.vcxproj", "{1502E5B9-D98F-4E1B-AD70-B7B774E64CA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1502E5B9-D98F-4E1B-AD70-B7B774E64CA7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1502E5B9-D98F-4E1B-AD70-B7B774E64CA7}.Debug|Win32.Build.0 = Debug|Win32
+		{1502E5B9-D98F-4E1B-AD70-B7B774E64CA7}.Release|Win32.ActiveCfg = Release|Win32
+		{1502E5B9-D98F-4E1B-AD70-B7B774E64CA7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
